@@ -1,0 +1,44 @@
+#menu ul {
+padding: 0;
+margin: 0;
+list-style-type: none;
+width: 200px;
+display: inline-block;
+}
+
+#menu ul li a {
+padding: 12px;
+display: block;
+text-decoration: none;
+background-color: #4fb99f;
+color: #fff;
+font-size: 18px;
+
+}
+
+#menu ul li a:hover:not(.active) {
+background-color: #068587;
+}
+
+
+#analiz {
+  border: 1px solid green;
+  float:right;
+  width:1000px;
+  height:500px;
+  margin-right:150px;
+  margin-top:70px;
+}
+
+
+#columnchart_material{
+  height:450px;
+  width:800px;
+  margin-top:50px;
+  margin-left:130px;
+
+}
+
+#chart2_div{
+  width: 900px;
+}
